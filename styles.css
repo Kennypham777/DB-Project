@@ -1,0 +1,214 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #2c3e50;
+    overflow: hidden;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    background-color: #1a252f;
+    transition: 0.3s;
+}
+
+/* Page Headers */
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #2c3e50;
+}
+h3 {
+    text-align: center;
+    margin-top: 20px;
+    color: #2c3e50;
+}
+
+/* === Login Form Styling === */
+form {
+    max-width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin: 0px 0 5px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #219150;
+}
+
+/* Signup Link */
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+p a {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* === Table Styling for Scheduling === */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+/* Schedule Overlaps */
+.overlap {
+    background-color: red; 
+    color: white;
+    font-weight: bold;
+}
+
+/* Hover Effect for Overlapping Shifts */
+.highlighted {
+    background-color: rgb(255, 119, 119);
+}
+
+/* "Add New Department" Button */
+a[href="add_department.php"] {
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    background: #27ae60;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+a[href="add_department.php"]:hover {
+    background: #219150;
+}
+
+/* Centering container */
+.center-container {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Style for the "Add New Employee" button */
+.center-container a[href="add_employee.php"] {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #27ae60;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.center-container a[href="add_employee.php"]:hover {
+    background-color: #219150;
+}
+
+/* Sort buttons container (centered) */
+.sort-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adds spacing between buttons */
+    margin-bottom: 15px;
+}
+
+.sort-buttons a {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.sort-buttons a:hover {
+    background-color: #0056b3;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #27ae60;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    transition: background 0.3s ease, transform 0.1s ease;
+    text-align: center;
+}
+.btn:hover {
+    background-color: #219150;
+}
+
+
