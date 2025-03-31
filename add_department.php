@@ -46,5 +46,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <button type="submit">Add Department</button>
 </form>
 
+<div class="center-container">
+    <a href="home.php" class="btn">Back to Departments</a>
+</div>
+
 </body>
 </html>

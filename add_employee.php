@@ -94,5 +94,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <button type="submit">Add Employee</button>
 </form>
 
+<div class="center-container">
+    <a href="employees.php" class="btn">Back to Employees List</a>
+</div>
+
 </body>
 </html>
