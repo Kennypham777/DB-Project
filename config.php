@@ -1,8 +1,8 @@
 <?php
-$host = "localhost";  // Change if using a different host
-$dbname = "employee_manager";  // Your database name
-$username = "root";  // Default XAMPP MySQL username
-$password = "";  // Default is empty for XAMPP
+$host = "localhost";  
+$dbname = "employee_manager";  
+$username = "root";  
+$password = "";  
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
